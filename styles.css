@@ -1,1 +1,54 @@
 /*  your css code here. If applicable */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f8f8;
+    position: relative;
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.hero h1 {
+    color: white;
+    font-size: 3em;
+    margin: 0;
+    z-index: 1;
+}
+
+.hero p {
+    color: white;
+    font-size: 1.2em;
+    margin: 10px 0;
+    z-index: 1;
+}
+
+.explore-button {
+    padding: 10px 20px;
+    background-color: #e60023;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.explore-button:hover {
+    background-color: #c7001f;
+}
